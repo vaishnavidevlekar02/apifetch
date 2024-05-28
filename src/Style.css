@@ -1,0 +1,69 @@
+/* Add some basic styling to the body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the container */
+.container-fluid {
+  padding: 20px;
+}
+
+/* Style for the card */
+
+.card {
+  flex: 0 0 300px; /* Set a fixed width for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: #11235A;
+  color: #fff;
+}
+
+/* Assuming your cards are within a flex container */
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Or any other layout style */
+}
+
+
+/* Style for the image inside the card */
+.card img {
+  border-radius: 10px;
+}
+
+/* Style for the card content */
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+/* Style for the statistics section */
+.stats {
+  background-color: #596FB7;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Style for text elements inside the card */
+.textleft {
+  text-align: left;
+}
+
+/* Add space between elements */
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+.wholeb{
+  background-color: antiquewhite;
+}
